@@ -1,0 +1,24 @@
+.container {
+    bottom: 0;
+    width: 100%;
+    background-color: #3b2525;
+    margin-top: 125px;
+    color: white;
+
+    .background {
+        width: 100%;
+        position: relative;
+        bottom: 125px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

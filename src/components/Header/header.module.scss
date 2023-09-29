@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(159, 92, 15, 0.95);
+    z-index: 1000;
+}
+
+.logo {
+    width: 30%;
+
+    img {
+        height: 70px;
+        margin-left: 100px;
+    }
+}
+
+.navwrap {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: flex-end;
+
+    .navbar {
+        margin-right: 30px;
+
+        .navitem {
+            margin: 40px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navitem:hover {
+            text-shadow: 0 0 10px #ffd036, 0 0 20px #ffd036, 0 0 40px #ffd036;
+        }
+    }
+}
+
+.login {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+    .loginitem {
+        color: white;
+        text-decoration: none;
+        padding: 10%;
+        padding-right: 30%;
+        padding-left: 30%;
+    }
+}
+
+.login:hover {
+    background-color: rgb(202, 131, 0);
+
+    .loginitem {
+        color: rgb(180, 180, 180);
+    }
+}
